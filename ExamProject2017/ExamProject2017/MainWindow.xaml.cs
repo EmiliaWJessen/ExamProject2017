@@ -23,6 +23,7 @@ namespace ExamProject2017
         public MainWindow()
         {
             InitializeComponent();
+            MessageBox.Show("helo");
         }
     }
 }
