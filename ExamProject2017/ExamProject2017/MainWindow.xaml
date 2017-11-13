@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamProject2017"
         mc:Ignorable="d"
-        Title="MainWindow" Height="150" Width="525">
+        Title="MainWindow" Height="350" Width="350">
     <Grid>
-        <Label Content="Welcome to the jungle!!!" FontSize="45" ></Label>
+        
     </Grid>
 </Window>
