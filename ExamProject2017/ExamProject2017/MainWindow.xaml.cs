@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using ExamProject2017.EF;
 namespace ExamProject2017
 {
     /// <summary>
@@ -23,7 +23,10 @@ namespace ExamProject2017
         public MainWindow()
         {
             InitializeComponent();
-            MessageBox.Show("helo");
+            //Console.WriteLine (CRUD.AddJudgeGroup("B"));
+            Console.WriteLine (CRUD.AddNewJudge("Poul", 1));
+
+            //MessageBox.Show("helo");
         }
     }
 }

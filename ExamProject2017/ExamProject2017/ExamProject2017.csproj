@@ -72,6 +72,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="EF\Category.cs" />
+    <Compile Include="EF\CRUD.cs" />
     <Compile Include="EF\DataInitializer.cs" />
     <Compile Include="EF\Event.cs" />
     <Compile Include="EF\Judge.cs" />
