@@ -12,8 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ExamProject2017.EF;
-namespace ExamProject2017
+
+namespace BusinesOdysey_Client
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,9 +23,6 @@ namespace ExamProject2017
         public MainWindow()
         {
             InitializeComponent();
-            ServerS server = new ServerS();
-            //Console.WriteLine (CRUD.AddJudgeGroup("B"));
-            //Console.WriteLine (CRUD.AddNewJudge("Poul", 1));
         }
     }
 }
