@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExamProject2017.EF
 {
-    class DataInitializer: DropCreateDatabaseAlways<Model>
+    class DataInitializer : DropCreateDatabaseAlways<Model>
     {
         protected override void Seed(Model context)
         {

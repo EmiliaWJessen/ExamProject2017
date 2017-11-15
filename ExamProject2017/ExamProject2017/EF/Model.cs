@@ -8,7 +8,7 @@ namespace ExamProject2017.EF
     public partial class Model : DbContext
     {
         public Model()
-            : base("name=ModelConnectionSettings")
+            : base("name=AModelConnectionSettings")
         {
         }
 

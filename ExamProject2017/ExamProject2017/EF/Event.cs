@@ -4,7 +4,7 @@ namespace ExamProject2017.EF
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
+    using System.Data.Entity;
 
     [Table("Event")]
     public partial class Event
@@ -22,6 +22,6 @@ namespace ExamProject2017.EF
         public DateTime event_Date { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Ranking> Ranking { get; set; }
+        public virtual ICollection<Ranking> Ranking { get; set; }   
     }
 }
